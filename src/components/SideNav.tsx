@@ -1,3 +1,3 @@
 export function SideNav() {
-    return <h1>Nav</h1>
+    return <nav className="sticky top-0 px-2 py-4"></nav>
 }

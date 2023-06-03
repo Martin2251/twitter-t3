@@ -16,7 +16,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
         <title>Twitter Clone</title>
         <meta name="description" content="this is a twitter clone by martin"></meta>
       </Head>
-      <div className="container mx-auto flex">
+      <div className="container mx-auto flex items-start">
         <SideNav/>
         <div className="min-h-screen flex-grow border-x">
       <Component {...pageProps} />
